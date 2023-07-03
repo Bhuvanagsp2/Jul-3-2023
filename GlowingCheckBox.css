@@ -1,0 +1,32 @@
+body{
+	background: #262626;
+}
+.container{
+	padding-top: 20%;
+}
+span{
+	margin-left: 30px;
+	margin-bottom: 10%;
+	color: rgba(255, 255, 255, 0.187);
+	border: 5px solid rgba(255, 255, 255, 0.187);
+	border-radius: 500px;
+	font-size: 50px;
+	padding: 20px;
+}
+input{
+	-webkit-appearance: none;
+}
+label{
+	cursor: pointer;
+}
+input:hover + span{
+	color: rgba(255, 255, 255, 0.376);
+	border-color: rgba(255, 255, 255, 0.376);
+}
+input:checked + span{
+	text-shadow: 0 0 10px pink;
+	color: pink;
+	border-color: pink;
+	box-shadow: 0 0 20px pink,
+				inset 0 0 20px pink;
+}
